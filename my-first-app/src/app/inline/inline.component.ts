@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-inline',
+  selector: '[app-inline]',
   template: '<p>I am inline</p>',
   styleUrls: ['./inline.component.css']
 })
