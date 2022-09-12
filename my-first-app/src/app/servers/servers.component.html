@@ -1,7 +1,9 @@
 <button
   class="btn btn-primary"
   [disabled]="!allowNewServer"
+  (click)="onServerButtonClick()"
   >Add server
 </button>
+<p>{{ serverStatus }}</p>
 <div class='app-server'></div>
 <div class='app-server'></div>
